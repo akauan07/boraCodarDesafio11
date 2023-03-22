@@ -1,14 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <title>Desafio 11</title>
 </head>
+
 <body>
   <main class="grid">
+    <section>
+      <div class="logo"> <a href="#"><img src="./assets/logo.svg" alt="Vertigo"></a></div>
+      <div class="container">
+        <div class="title">
+          <h1>Acesse a plataforma</h1>
+          <h2>Faça login ou registre-se para começar a construir seus projetos ainda hoje.</h2>
+        </div>
+        <div class="form">
+          <h2>Email</h2>
+          <input id="inputEmail" type="text" placeholder="Digite seu E-mail">
+          <div class="password">
+            <h2>senha</h2>
+            <a href="#">
+              <h2>Esqueceu a senha?</h2>
+            </a>
+          </div>
+          <input id="inputEmail" type="text" placeholder="Digite sua senha">
+        </div>
 
+        <button id="buttonPerguntar" onclick="fazerPergunta()">ENTRAR</button>
+      </div>
+    </section>
+    <section class="bg">
+      <!-- <img src="./assets/bg.svg" alt="background"> -->
+    </section>
   </main>
 </body>
+
 </html>

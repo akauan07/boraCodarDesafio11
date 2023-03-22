@@ -1,0 +1,70 @@
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Titillium Web', sans-serif;
+        font-size: 62.5%;
+}
+
+/* body {
+        margin: auto;
+        width: 144rem;
+} */
+
+.grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+}
+
+.logo {
+        margin: 4rem 0 0 11.2rem;
+}
+
+.container {
+        border: 1px solid black;
+        margin: 11.2rem 0 0 11.2rem;
+        width: 38.4rem;
+        height: 48.3rem;
+}
+
+.container .title {
+        width: 35.1rem;
+        height: 11.9rem;
+}
+
+.container .title h1 {
+        font-size: 3.6rem;
+}
+
+.container .title h2 {
+        color: #475569;
+        font-size: 1.6rem;
+        font-weight: 400;
+}
+
+.container .form {
+        margin-top: 4rem;
+}
+
+.form h2 {
+        font-size: 1.4rem;
+        font-weight: 600;
+}
+
+#inputEmail {
+        margin-top: 0.8rem;
+        font-size: 1.4rem;
+        width: 38.2rem;
+        padding: 1.6rem 0 1.6rem 1.2rem;
+        /* height: 5.3rem; */
+}
+
+.password {
+        display: flex;
+        justify-content: space-between;
+        margin: 1.6rem 0 0.8rem 0;
+}
+
+.bg {
+        background: url(/assets/bg.svg) no-repeat;
+}
