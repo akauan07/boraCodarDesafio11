@@ -51,18 +51,40 @@
         font-weight: 600;
 }
 
-#inputEmail {
-        margin-top: 0.8rem;
+#inputEmail,
+#inputPassword {
+        /* margin-top: 0.8rem;   */
         font-size: 1.4rem;
-        width: 38.2rem;
+        width: 38.3rem;
         padding: 1.6rem 0 1.6rem 1.2rem;
-        /* height: 5.3rem; */
 }
 
 .password {
         display: flex;
         justify-content: space-between;
-        margin: 1.6rem 0 0.8rem 0;
+        /* margin: 1.6rem 0 0.8rem 0; */
+}
+
+#bntEnter {
+        color: #FFFFFF;
+        background: #7C3AED;
+        border-radius: 0.4rem;
+        font-size: 1.6rem;
+        font-weight: bold;
+        padding: 1.6rem 16.1rem;
+        margin-top: 3.2rem;
+}
+
+#sign-up {
+        color: #475569;
+        margin-top: 3.2rem;
+        font-weight: 400;
+}
+
+.container .form span {
+        color: #7C3AED;
+        font-size: 1.6rem;
+        font-weight: bold;
 }
 
 .bg {
