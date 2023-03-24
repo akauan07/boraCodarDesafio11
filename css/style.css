@@ -7,20 +7,21 @@
 }
 
 body {
-        margin: auto;
-        width: 144rem;
+        margin: 0 auto;
 }
 
 main {
         margin: auto;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        width: 144rem;
         height: 90rem;
 
 }
 
 .logo {
-        margin: 4rem 0 0 11.2rem;
+        margin-left: 11.2rem;
+        padding-top: 4rem;
 }
 
 img {
@@ -28,7 +29,8 @@ img {
 }
 
 .container {
-        margin: 11.2rem 0 0 11.2rem;
+        margin-left: 11.2rem;
+        padding-top: 11.2rem;
         width: 38.4rem;
         height: 48.3rem;
 }
@@ -111,14 +113,14 @@ img {
 
 @media (max-width: 780px) {
 
-
         main {
                 grid-template-columns: 1fr;
-                justify-content: center;
-                align-content: center;
+                max-width: 50rem;
         }
 
-        section {
+        .logo,
+        .container {
+                width: 38.4rem;
                 margin: 0 auto;
         }
 
